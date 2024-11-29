@@ -39,30 +39,5 @@ Roles such as "leader," "intern," and "neutral" can be assigned to LLMs to simul
 
 ---
 
-# Requirements
-
-### Dependencies
-Install the required Python libraries:
-
-```
-pip install openai transformers torch langchain faiss-cpu ```
 
 
-markdown
-Copy code
-# API Keys
-
-- **OpenAI GPT models (e.g., GPT-4, GPT-3.5):** Obtain API keys from OpenAI.
-- **Open-source models (e.g., Llama 2):** Ensure access to the Hugging Face repository or API.
-
----
-
-# Usage
-
-### 1. Add API Keys
-Create a `keys.txt` file to store your API keys. Use the format:
-
-```plaintext
-gpt-4:<your_gpt4_api_key>
-gpt-3.5-turbo:<your_gpt35_api_key>
-llama:<your_llama_api_key>
